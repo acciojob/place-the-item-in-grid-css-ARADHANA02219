@@ -1,16 +1,18 @@
-.container{
+.grid-container{
 	display:grid;
 	grid-template-columns:repeat(2,2fr);
 	
+	
 	border:2px solid black;
-	width:200px;
-	align-items:center;
+	
 }
-.item{
+.grid-item{
+	background-color:tomato;
 	margin:2px;
 	padding:20px;
-	border:blue;
-	background-color:tomato;
+	
+	
 }
+	
 
 /* Your CSS Code here. */
