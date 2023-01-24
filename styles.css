@@ -1,2 +1,15 @@
-
+.container{
+	display:grid;
+	grid-template-columns:repeat(2,2fr);
+	background-color:lightblue;
+	
+	width:200px;
+}
+.item{
+	background-color:tomato;
+	margin:1px;
+	padding:20px;
+	
+}
+}
 /* Your CSS Code here. */
